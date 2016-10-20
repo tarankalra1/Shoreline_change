@@ -1,5 +1,13 @@
 1. This folder contains
-FI_Q_3months
-FI_14feb
-shoreline_Ilgar
 
+a)-FI_Q_3months
+
+b)-FI_14feb
+
+c)-shoreline_FI
+
+-Ilgar's FI strip grid angle files 
+
+-Taran's code -get_shoreline_lonlat.m to get strip grid lon,lat from a FI strip grid netcdf file
+
+-"Other" m files to run the above 'get_shoreline_lonlat.m' matlab code 

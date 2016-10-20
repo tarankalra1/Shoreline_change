@@ -101,12 +101,13 @@ for i=1:length(A)
   end 
 end
 display('Total number of shoreline points')
- 
+count 
 % Add the last point for the shoreline data because it was left out it
 % in angle calculation. For now manually check if it alignes with the rest
 % of the points 
 lon_shore(count)=lon_pt(end); 
 lat_shore(count)=lat_pt(end); 
+azinew(count)=NaN;
 hold on
 plot(lon_shore,lat_shore,'rx')
 legend('Last few FI pts.','Extracted pts.','Final Refined pts.')
